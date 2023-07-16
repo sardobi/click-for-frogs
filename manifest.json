@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Frogges",
     "version": "0.1.0",
-    "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+    "description": "Adds a Click for frogs button to your toolbar in the spirit of Tumblr.",
     "icons": {
         "48": "icons/frogge-48.png"
     },
