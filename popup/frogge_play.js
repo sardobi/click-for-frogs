@@ -15,7 +15,7 @@ document.addEventListener("mouseover", (e) => {
         return;
     }
 
-    frogName = e.target.textContent;
+    frogName = e.target.id;
     frogAudio = new Audio(frogToAudioFile(frogName));
     frogAudio.play();
 });
