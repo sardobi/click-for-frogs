@@ -6,6 +6,11 @@ function frogToAudioFile(frogName) {
     return browser.runtime.getURL(`notes/${noteName}.mp3`);
 }
 
+// Style the buttons with the corresponding frog images.
+document.querySelectorAll('.frog-button').forEach(button => {
+    button.style.setProperty('--img-src', 'url(' + button.dataset.imgSrc + ')');
+});
+
 /**
 * Listen for hovers on the buttons, playing the corresponding frog note.
 */
