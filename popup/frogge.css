@@ -9,8 +9,9 @@ body {
     /* matches dimensions of frog images */
     width: 22px;
     height: 23px;
-    border: none;
     padding: 0%;
+    border: none;
+    margin: 0 5px;
     background: no-repeat;
 }
 
