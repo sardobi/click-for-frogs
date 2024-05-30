@@ -1,16 +1,17 @@
 {
     "manifest_version": 2,
     "name": "Frogges",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "description": "Adds a 'click for frogs' button to your toolbar in the spirit of Tumblr.",
     "icons": {
-        "48": "icons/frogge-48.png"
+        "16": "icons/frogge-16.png",
+        "32": "icons/frogge-32.png"
     },
     "permissions": [
         "activeTab"
     ],
     "browser_action": {
-        "default_icon": "icons/frogge-48.png",
+        "default_icon": "icons/frogge-16.png",
         "default_title": "Click for frogs",
         "default_popup": "popup/frogge.html"
     },
